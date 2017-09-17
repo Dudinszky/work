@@ -1,37 +1,17 @@
-@import '../utilities/fonts_var';
-
-// Fonts include
-
-@each $font-name, $font-data in $fonts-data {
-  @if (type-of($font-data) == 'map') {
-    @for $i from 1 through length($font-data) {
-      @font-face {
-        font-family: $font-name;
-        font-style: normal;
-        font-weight: nth(map-get($font-data, $i), 5);
-        src: local(nth(map-get($font-data, $i), 3)), local(nth(map-get($font-data, $i), 4)),
-        url('#{$fonts-path}#{nth(map-get($font-data, $i), 1)}#{nth(map-get($font-data, $i), 2)}.woff2') format('woff2'),
-        url('#{$fonts-path}#{nth(map-get($font-data, $i), 1)}#{nth(map-get($font-data, $i), 2)}.woff') format('woff');
-      }
-    }
-  }
-}
-
 @font-face {
   font-family: 'Agne';
-  src: ('../fonts/agne/agne-regular.woff2');
-  src: ('../fonts/agne/agne-regular.woff');
+  src: url('../fonts/agne/agne-regular.woff2'),
+       url('../fonts/agne/agne-regular.woff');
 }
 
 @font-face {
   font-family: 'FirasansBlack';
-  src: ('../fonts/firasans/firasans-black.woff2');
-  src: ('../fonts/firasans/firasans-black.woff');
+  src: url('../fonts/firasans/firasans-black.woff2'),
+       url('../fonts/firasans/firasans-black.woff');
 }
 
 @font-face {
   font-family: 'FirasansLight';
-  src: ('../fonts/firasans/firasans-light.woff2');
-  src: ('../fonts/firasans/firasans-black.woff');
-
+  src: url('../fonts/firasans/firasans-light.woff2'),
+       url('../fonts/firasans/firasans-black.woff');
 }
