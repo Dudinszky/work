@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'MyAgne';
-  src: "public/fonts/agne/agne-regular-webfont.woff";
-  src: "public/fonts/agne/agne-regular-webfont.woff2"; }
+  font-family: 'Agne';
+  src: "../fonts/agne/agne-regular.woff";
+  src: "../fonts/agne/agne-regular.woff2"; }
 
 @font-face {
-  font-family: 'MyFirasansBlack';
-  src: "public/fonts/firasans/firasans-black-webfont.woff";
-  src: "public/fonts/firasans/firasans-black-webfont.woff2"; }
+  font-family: 'FirasansBlack';
+  src: "../fonts/firasans/firasans-black.woff2";
+  src: "../fonts/firasans/firasans-black.woff"; }
 
 @font-face {
-  font-family: 'MyFirasansLight';
-  src: "public/fonts/firasans/firasans-light-webfont.woff";
-  src: "public/fonts/firasans/firasans-light-webfont.woff2"; }
+  font-family: 'FirasansLight';
+  src: "../fonts/firasans/firasans-light.woff2";
+  src: "../fonts/firasans/firasans-black.woff"; }
 
 /*# sourceMappingURL=style.css.map */
