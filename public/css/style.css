@@ -140,11 +140,17 @@ textarea:focus:-ms-input-placeholder {
   src: url("../fonts/agne/agne-regular.woff2"), url("../fonts/agne/agne-regular.woff"); }
 
 @font-face {
-  font-family: 'FirasansBlack';
+  font-family: 'FiraSans';
+  font-weight: 900;
   src: url("../fonts/firasans/firasans-black.woff2"), url("../fonts/firasans/firasans-black.woff"); }
 
 @font-face {
-  font-family: 'FirasansLight';
+  font-family: 'FiraSans';
+  font-weight: 300;
   src: url("../fonts/firasans/firasans-light.woff2"), url("../fonts/firasans/firasans-black.woff"); }
+
+.bold-txt {
+  font-family: 'FiraSans';
+  font-weight: 900; }
 
 /*# sourceMappingURL=style.css.map */
