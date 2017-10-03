@@ -167,11 +167,22 @@
 
   .product__img {
     width: 100%;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      width: 570px;
+      height: 450px;
+      background-color: #f2f8f7;
+    }
   }
 
   .product__content--A {
     padding-left: 85px;
-
+  }
     .content__header--A {
       color: #1f3b51;
       font-family: 'Agne';
@@ -198,7 +209,7 @@
       margin-top: 85px;
     }
   }
-}
+
 
 
 
