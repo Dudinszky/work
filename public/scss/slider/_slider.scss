@@ -1,0 +1,21 @@
+.background__slider {
+  height: 250px;
+  background-color: #ffffff;
+
+  .bxslider {
+    height: 450px;
+    background-color: #ffffff;
+    position: absolute;
+    top: -50px;
+
+    .slider__1 {
+      height: 100px;
+      color: #1f3b51;
+      font-family: 'Agne';
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+  }
+}
