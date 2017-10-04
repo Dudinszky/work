@@ -29,7 +29,7 @@
 }
 
 .container {
-  margin-top: 30px;
+  margin-top: 5px;
   padding: 0;
 }
 
@@ -163,9 +163,9 @@
 }
 
 .product {
-  padding: 175px 30px 0;
+  padding: 175px 40px 0;
   margin: 0 auto;
-  margin-left: 100px;
+  margin-left: 70px;
   @include OneBefore;
 
   .product__img {
@@ -215,6 +215,25 @@
   @include FourBefore;
 }
 
+.load {
+  margin-top: 177px;
+  text-align: center;
+  position: relative;
+  .load__btn--txt {
+    margin: 0;
+    color: #1f3b51;
+    font-family: 'Jeans';
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .load__img {
+    position: absolute;
+    top: -49px;
+    left: 520px;
+  }
+}
 
 
 
