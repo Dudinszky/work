@@ -6723,20 +6723,20 @@ button.close {
     left: 493px; }
 
 .product {
-  padding: 145px 30px 0;
+  padding: 175px 30px 0;
   margin: 0 auto;
   margin-left: 100px; }
+  .product:before {
+    content: '';
+    position: absolute;
+    top: 125px;
+    right: 217px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7; }
   .product .product__img {
     width: 100%;
     position: relative; }
-    .product .product__img:before {
-      content: '';
-      position: absolute;
-      top: 1px;
-      left: 1px;
-      width: 570px;
-      height: 450px;
-      background-color: #f2f8f7; }
   .product .product__content--A {
     padding-left: 85px; }
   .product .content__header--A {
@@ -6759,5 +6759,38 @@ button.close {
     border: none;
     padding: 0;
     margin-top: 85px; }
+
+.before2 {
+  padding-top: 200px; }
+  .before2:before {
+    content: '';
+    position: absolute;
+    top: 148px;
+    left: 213px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7; }
+
+.before3 {
+  padding-top: 200px; }
+  .before3:before {
+    content: '';
+    position: absolute;
+    top: 148px;
+    right: 217px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7; }
+
+.before4 {
+  padding-top: 200px; }
+  .before4:before {
+    content: '';
+    position: absolute;
+    top: 148px;
+    left: 213px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7; }
 
 /*# sourceMappingURL=style.css.map */

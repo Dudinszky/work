@@ -57,3 +57,79 @@
     }
   }
 }
+
+
+
+@mixin OneBefore {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 125px;
+    right: 217px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7;
+  }
+}
+
+@mixin TwoBefore {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 148px;
+    left: 213px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7;
+  }
+}
+
+@mixin ThreeBefore {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 148px;
+    right: 217px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7;
+  }
+}
+
+@mixin FourBefore {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 148px;
+    left: 213px;
+    width: 570px;
+    height: 450px;
+    background-color: #f2f8f7;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
