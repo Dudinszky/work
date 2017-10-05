@@ -6803,7 +6803,8 @@ button.close {
     font-family: 'Jeans';
     font-size: 24px;
     font-weight: 400;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    cursor: pointer; }
   .load .load__img {
     position: absolute;
     top: -49px;
