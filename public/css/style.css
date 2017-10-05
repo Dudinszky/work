@@ -6670,7 +6670,8 @@ button.close {
   background-size: 100% 730px;
   height: 730px;
   padding: 0;
-  position: relative; }
+  position: relative;
+  margin-bottom: 50px; }
   .background .background__wrap--left {
     margin-top: 130px;
     margin-left: 130px; }
@@ -6720,7 +6721,8 @@ button.close {
     letter-spacing: 1.2px;
     position: absolute;
     bottom: 45px;
-    left: 493px; }
+    left: 493px;
+    text-decoration: none; }
 
 .product {
   padding: 175px 40px 0;
