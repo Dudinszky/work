@@ -6617,7 +6617,7 @@ button.close {
   float: left; }
 
 .container {
-  margin-top: 5px;
+  margin-top: 35px;
   padding: 0; }
 
 .left-navigation {
@@ -6808,5 +6808,102 @@ button.close {
     position: absolute;
     top: -49px;
     left: 520px; }
+
+.fotoer {
+  position: relative; }
+
+.footer__info {
+  background-color: #f2f8f7;
+  padding-left: 70px;
+  margin: 90px 0 50px;
+  height: 270px; }
+  .footer__info .footer__left-txt {
+    text-align: left;
+    margin-right: 45px; }
+    .footer__info .footer__left-txt .footer-title--1 {
+      margin: 68px 0 27px;
+      color: #1f3b51;
+      font-family: 'Agne';
+      font-size: 18px;
+      font-weight: 400; }
+    .footer__info .footer__left-txt .footer-txt--1 {
+      color: #1f3b51;
+      font-family: 'FiraSans';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px; }
+  .footer__info .footer__right-txt {
+    text-align: right;
+    margin: 0; }
+    .footer__info .footer__right-txt .footer-title-2 {
+      text-align: left;
+      margin: 68px 0 27px;
+      color: #1f3b51;
+      font-family: 'Agne';
+      font-size: 18px;
+      font-weight: 400; }
+    .footer__info .footer__right-txt .footer-txt--2 {
+      margin-bottom: 24px;
+      text-align: left;
+      color: #1f3b51;
+      font-family: 'FiraSans';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px; }
+    .footer__info .footer__right-txt .txt-padding {
+      text-align: left;
+      pading-top: 40px;
+      color: #1f3b51;
+      font-family: 'FiraSans';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; }
+
+.footer__subscribe {
+  margin: 90px 0 50px; }
+  .footer__subscribe .footer__sub-social {
+    padding-left: 71px; }
+  .footer__subscribe .sub-title {
+    margin: 68px 0 27px;
+    color: #1f3b51;
+    font-family: 'Agne';
+    font-size: 18px;
+    font-weight: 400; }
+  .footer__subscribe .sub-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'FiraSans';
+    color: #93bab2;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    cursor: pointer; }
+
+.footer__submit .footer__search {
+  margin-top: 40px;
+  width: 330px;
+  height: 60px;
+  border: 4px solid #e4e9e8;
+  border-right: none; }
+
+.footer__submit input {
+  font-family: 'FiraSans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 15px 0 0 25px;
+  border: none;
+  color: #000; }
+
+.footer__submit .submit {
+  color: #1f3b51;
+  font-family: 'Jeans';
+  background: inherit;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 26px;
+  right: 31px; }
 
 /*# sourceMappingURL=style.css.map */
